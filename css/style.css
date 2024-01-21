@@ -1,0 +1,207 @@
+body {
+  font-family: 'Josefin Sans', sans-serif;
+font-family: 'Noto Sans JP', sans-serif;
+}
+
+
+p {
+  font-size: 18px;
+  /* font-size: clamp(8px,1vw,18px); */
+}
+
+a {
+  color: black;
+  font-weight: bold;
+  font-size: 34px;
+  /* font-size: clamp(15px,1vw,34px); */
+  
+  text-decoration: none;
+  padding: 20px;
+}
+
+li {
+  font-size: 18px;
+  /* font-size: clamp(8px,1vw,18px); */
+}
+
+#camera {
+  width: 100%;
+}
+
+header {
+  display: flex; 
+  justify-content: center;
+
+  margin: 20px;
+  
+}
+
+.home {
+  font-size: 34px;
+  border: solid 2px black;
+  margin-right: 100px;
+  margin-left: 100px; 
+  text-decoration: none;
+
+  padding: 5px 30px 5px 30px;
+ 
+  font-weight: bold;
+}
+
+
+.title {
+  font-size: 34px;
+  /* font-size: clamp(15px,1vw,34px); */
+  font-weight: bold;
+  text-align: center;
+}
+
+.namae {
+  font-size: 24px;
+  /* font-size: clamp(11px,1vw,24px); */
+  font-weight: bold;
+}
+
+#about {
+  margin: 30px;
+  text-align: center;
+}
+
+
+#about-content {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+  text-align: left;
+}
+
+ .about-content-inner { 
+     max-width: 100%;}
+
+/* #about > div > div > img { */
+  /* height: 165px; */
+  /* border-radius: 50%; */
+  .face-picture {
+  border-radius: 50%;
+    width: 280px;
+    height: 280px;
+    object-fit: cover;
+    /* border: 3px solid #999; */
+    padding: 3px;
+    margin: 0 ;
+}
+
+#about > div > div > ul {
+  text-align: left;
+}
+
+
+
+
+#works {
+  text-align: center;
+  /* margin: 30px; */
+  /* padding-left: 40%; */
+  /* padding-right: 40%; */
+}
+
+#works-contents {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+ 
+}
+
+.works-contents-inner {
+  padding: 10px; 
+  white-space: pre-wrap;
+  width: 18%; 
+  
+}
+
+
+
+img {
+  margin: 0 auto;
+  width: 100%;
+}
+
+footer {
+  text-align: center;
+}
+/* .works-contents-inner > img {  
+   width: 170px; 
+}*/
+
+/*================
+スマホ用のスタイル
+================*/
+@media screen and (max-width: 767px) {
+
+  header {display: block;
+    text-align: center;
+    
+    margin: 20px;
+    /* white-space: nowrap; */
+
+  }
+
+  .home { 
+    font-size: 34px;
+    border: solid 2px black;
+    margin: 0;
+    /* margin-right: 100px; */
+    /* margin-left: 100px; */
+    text-decoration: none;
+    padding: 5px 30px 5px 30px;
+    font-weight: bold;
+  }
+  
+  a {
+    padding: 5px;
+  }
+
+  #about-content { 
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 20px auto 20px auto;
+    max-width: 960px;
+    /* margin-left: 0; */
+    /* white-space: nowrap; */
+  }
+
+  .face-picture {
+    /* border-radius: 50%; */
+      /* width: 100px; */
+      /* height: 100px; */
+      /* object-fit: cover; */
+      /* border: 3px solid #999; */
+      /* padding: 3px; */
+      /* margin: 0 ; */
+      border-radius: 50%;
+    width: 280px;
+    height: 280px;
+    object-fit: cover;
+    border: 3px solid #999;
+    padding: 3px;
+  }
+
+  #works-contents{
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .works-contents-inner {
+    /* padding: 10px; */
+    margin: 0 auto;
+    width: 95%;
+    
+    
+  }
+  
+  }
+
+  
+
